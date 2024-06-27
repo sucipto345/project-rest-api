@@ -40,6 +40,6 @@ class JobVacancy extends Model
      */
     public function jobApplySocieties()
     {
-        return $this->hasMany(Job_apply_society::class);
+        return $this->hasMany(JobApplySociety::class);
     }
 }

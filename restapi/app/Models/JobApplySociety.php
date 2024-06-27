@@ -6,7 +6,7 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Job_apply_society extends Model
+class JobApplySociety extends Model
 {
     /**
      * The table associated with the model.
@@ -49,6 +49,6 @@ class Job_apply_society extends Model
      */
     public function jobVacancy()
     {
-        return $this->belongsTo(Job_vacancy::class);
+        return $this->belongsTo(JobVacancy::class);
     }
 }
